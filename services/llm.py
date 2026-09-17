@@ -8,6 +8,8 @@ client = Groq(
     api_key=os.getenv("GROQ_API_KEY")
 )
 
+groq_api_key=""
+
 
 def generate_message(prompt):
 
