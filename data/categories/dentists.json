@@ -124,6 +124,6 @@
     { "query": "dental implants near me", "delta_yoy": 0.18, "segment_age": "45-65", "skew": "male" },
     { "query": "kids first dental visit", "delta_yoy": 0.27, "segment_age": "parents_25-40", "skew": "female" }
   ],
-  "regulatory_authorities": ["Dental Council of India (DCI)", "Indian Dental Association (IDA)"],
+  "regulatory_authorities": ["Dental Council of India (DCI)", "Indian Dental Association"],
   "professional_journals": ["JIDA", "Indian Journal of Dental Research", "Dental Tribune India"]
 }
