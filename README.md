@@ -1,4 +1,4 @@
-# Vera AI Challenge Bot - https://vera-ai-challenge-hg10.onrender.com/
+# Vera AI Challenge Bot - https://vera-ai-challenge-tuwh.onrender.com
 
 ## Overview
 
@@ -542,7 +542,7 @@ uvicorn app:app --reload
 Open:
 
 ```text
-http://127.0.0.1:8000/docs
+ http://127.0.0.1:8000
 ```
 
 for Swagger UI.
