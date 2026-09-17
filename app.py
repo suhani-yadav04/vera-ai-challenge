@@ -107,22 +107,28 @@ def tick(payload: dict):
         []
     )
 
-    for trigger_id in trigger_ids:
+    for trigger_item in trigger_ids:
+        if isinstance(trigger_item, dict):
+            trigger_id = trigger_item.get("trigger_id")
+        else:
+            trigger_id = trigger_item
 
-        trigger = contexts["trigger"].get(
-            trigger_id
-        )
+        if not trigger_id:
+            continue
+
+        trigger = contexts["trigger"].get(trigger_id)
 
         if not trigger:
             continue
 
-        merchant_id = trigger.get(
-            "merchant_id"
-        )
+        merchant_id = trigger.get("merchant_id")
+        merchant = contexts["merchant"].get(merchant_id)
 
-        merchant = contexts["merchant"].get(
-            merchant_id
-        )
+        if not merchant:
+            for candidate in seed_data["merchants"]["merchants"]:
+                if candidate.get("merchant_id") == merchant_id:
+                    merchant = candidate
+                    break
 
         if not merchant:
             continue
