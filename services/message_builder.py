@@ -189,7 +189,7 @@ def build_message_rule(merchant, trigger):
 
     return (
     f"Hi {name}, I found a few growth opportunities "
-    f"for your business. Would you like a quick review?"
+    f"for your business. Would you like a quick review? "
 )
 
 
