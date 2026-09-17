@@ -550,7 +550,6 @@ for Swagger UI.
 ---
 
 # Author
-
-Ashwani Kumar Jha
+ Suhani Yadav
 
 Built for the Magicpin Vera AI Challenge.

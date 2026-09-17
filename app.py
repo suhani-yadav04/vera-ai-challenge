@@ -40,13 +40,13 @@ def health():
 def metadata():
 
     return {
-        "team_name": "Ashwani Kumar Jha",
+        "team_name": "Suhani Yadav",
         "team_members": [
-            "Ashwani Kumar Jha"
+            "Suhani Yadav"
         ],
         "model": "Groq Llama 3.3 70B + Rule Fallback",
         "approach": "AI-first contextual message generation with rule-based fallback",
-        "contact_email": "ashwani.jha.ug22@nsut.ac.in",
+        "contact_email": "Suhaniyadav1802@gmail.com",
         "version": "1.0",
         "submitted_at": datetime.now(
             timezone.utc
@@ -324,7 +324,7 @@ def home():
     return {
         "service": "Magicpin Vera AI Challenge Bot",
         "status": "running",
-        "team": "Ashwani Kumar Jha",
+        "team": "Suhani yadav",
         "version": "1.0",
         "docs": "/docs",
         "health": "/v1/healthz",
