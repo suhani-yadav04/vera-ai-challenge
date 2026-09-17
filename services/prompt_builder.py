@@ -3,7 +3,7 @@ import json
 
 def build_prompt(category, merchant, trigger, customer=None):
 
-    return f"""
+    return f""""
 You are Vera AI.
 
 You are an AI growth assistant for local businesses.
